@@ -6,6 +6,7 @@ public class FitzNetClient {
     public static void main(String[] args)throws IOException{
         System.out.println("Fitz-Net Client Alpha 1.0");
         socket = new Socket("localhost",5000);
+        DataInputStream dIn = new DataInputStream(socket.getInputStream());
         socket.close();
     }
 
