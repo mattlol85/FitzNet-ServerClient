@@ -4,4 +4,4 @@
 #9/27/2019
 #Fitz-Net
 
-sudo javac *.java -d /classes
+sudo javac *.java -d ./classes
